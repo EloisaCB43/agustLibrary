@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Rosario:wght@300&display=swap');
+
+
+.main-header {
+    padding: 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.main-header i {
+    padding: 5px;
+    margin: 0px;
+}
+
+.img-logo {
+    height: 70px;
+}
+
+.burguer-menu {
+    font-size: 22px;
+}
+
+.icons-header {
+    display: flex;
+}
+
+.navbar {
+    display: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.login-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.login-bar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.icons-header i {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* Search */
+
+.search-mobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.search-bar-mobile {
+    width: 90vw;
+    border-bottom: solid 0.5px #000;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    height: 25px;
+
+}
+
+.search-mobile button {
+    border: 0px;
+    border-bottom: solid 0.5px #000;
+    background-color: #fff;
+    height: 25px;
+}
+
+.search-desktop {
+    display: none;
+    width: 0%;
+}
+
+
+/* BANNER */
+
+.banner2 {
+    display: none;
+    justify-content: center;
+    padding: 10px 30px 30px;
+    margin-bottom: 35px;
+    border-bottom: solid black 1px;
+}
+
+.banner2 img {
+    width: 100%;
+
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 35px;
+}
+
+.banner img {
+    width: 100vw;
+}
+.borrar {
+    background: none;
+    color: white;
+    border: none;
+    justify-self: flex-end;
+}
